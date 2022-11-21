@@ -1,0 +1,208 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my code */
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: #f5fcff;
+  position: relative;
+}
+
+.cloud {
+  background-image: url("../img/cloud.png");
+  background-size: auto 200px;
+  background-position-x: center;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 200px;
+  width: auto;
+  max-height: 200px;
+  z-index: 2;
+  
+}
+.sun {
+  background-image: url("../img/sun.png");
+  background-size: auto 250px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 250px;
+  z-index: 1;
+  
+}
+.cat {
+  background-image: url("../img/cat.png");
+  background-size: auto 500px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+  height: 500px;
+  z-index: 1;
+  
+}
+.grass {
+  background-image: url("../img/grass.png");
+  background-size: auto 150px;
+  background-repeat: repeat-x;
+  background-position-x: center;
+  background-position-y: bottom;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  z-index: 2;
+}
+
+
+
